@@ -1,0 +1,54 @@
+.experience-card {
+  position: relative;
+}
+
+.experience-gradient {
+  background: linear-gradient(135deg, var(--exp-gradient-color, rgba(255, 255, 255, 0.08)), transparent);
+}
+
+.experience-logo {
+  background: linear-gradient(135deg, var(--exp-logo-start, rgba(255, 255, 255, 0.15)), var(--exp-logo-end, rgba(255, 255, 255, 0.05)));
+  border: 1px solid var(--exp-border-color, rgba(255, 255, 255, 0.15));
+}
+
+.experience-icon {
+  color: var(--exp-color, #ffffff);
+}
+
+.experience-period-badge {
+  background: var(--exp-badge-bg, rgba(255, 255, 255, 0.08));
+  border: 1px solid var(--exp-border-color, rgba(255, 255, 255, 0.15));
+  color: var(--exp-color, #ffffff);
+}
+
+.experience-responsibility-dot {
+  background-color: var(--exp-color, #ffffff);
+}
+
+.experience-theme-purple {
+  --exp-color: #6a3fb3;
+  --exp-gradient-color: rgba(106, 63, 179, 0.125);
+  --exp-logo-start: rgba(106, 63, 179, 0.188);
+  --exp-logo-end: rgba(106, 63, 179, 0.063);
+  --exp-border-color: rgba(106, 63, 179, 0.251);
+  --exp-badge-bg: rgba(106, 63, 179, 0.125);
+}
+
+.experience-theme-green {
+  --exp-color: #00c67a;
+  --exp-gradient-color: rgba(0, 198, 122, 0.125);
+  --exp-logo-start: rgba(0, 198, 122, 0.188);
+  --exp-logo-end: rgba(0, 198, 122, 0.063);
+  --exp-border-color: rgba(0, 198, 122, 0.251);
+  --exp-badge-bg: rgba(0, 198, 122, 0.125);
+}
+
+.experience-theme-red {
+  --exp-color: #ff4b4b;
+  --exp-gradient-color: rgba(255, 75, 75, 0.125);
+  --exp-logo-start: rgba(255, 75, 75, 0.188);
+  --exp-logo-end: rgba(255, 75, 75, 0.063);
+  --exp-border-color: rgba(255, 75, 75, 0.251);
+  --exp-badge-bg: rgba(255, 75, 75, 0.125);
+}
+

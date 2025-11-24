@@ -1,0 +1,82 @@
+0 verbose cli /Users/quest/.nvm/versions/node/v16.20.2/bin/node /Users/quest/.nvm/versions/node/v16.20.2/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@8.19.4
+2 info using node@v16.20.2
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/Users/quest/.nvm/versions/node/v16.20.2/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/Users/quest/Downloads/Software Engineer Portfolio Website/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 2ms
+11 timing config:load:file:/Users/quest/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/Users/quest/.nvm/versions/node/v16.20.2/etc/npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 9ms
+19 timing npm:load:configload Completed in 9ms
+20 timing npm:load:mkdirpcache Completed in 3ms
+21 timing npm:load:mkdirplogs Completed in 0ms
+22 verbose title npm exec tsc --noEmit
+23 verbose argv "exec" "--" "tsc" "--noEmit"
+24 timing npm:load:setTitle Completed in 1ms
+25 timing config:load:flatten Completed in 2ms
+26 timing npm:load:display Completed in 2ms
+27 verbose logfile logs-max:10 dir:/Users/quest/Downloads/Software Engineer Portfolio Website/.npm-cache/_logs
+28 verbose logfile /Users/quest/Downloads/Software Engineer Portfolio Website/.npm-cache/_logs/2025-11-24T09_00_12_264Z-debug-0.log
+29 timing npm:load:logFile Completed in 4ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 19ms
+33 silly logfile done cleaning log files
+34 timing arborist:ctor Completed in 0ms
+35 timing arborist:ctor Completed in 0ms
+36 http fetch GET 200 https://registry.npmjs.org/tsc 521ms (cache miss)
+37 timing arborist:ctor Completed in 0ms
+38 timing arborist:ctor Completed in 0ms
+39 warn exec The following package was not found and will be installed: tsc@2.0.4
+40 timing arborist:ctor Completed in 0ms
+41 timing idealTree:init Completed in 2ms
+42 timing idealTree:userRequests Completed in 1ms
+43 silly idealTree buildDeps
+44 silly fetch manifest tsc@2.0.4
+45 http fetch GET 200 https://registry.npmjs.org/tsc 8ms (cache hit)
+46 silly placeDep ROOT tsc@2.0.4 OK for:  want: 2.0.4
+47 timing idealTree:#root Completed in 11ms
+48 timing idealTree:node_modules/tsc Completed in 0ms
+49 timing idealTree:buildDeps Completed in 12ms
+50 timing idealTree:fixDepFlags Completed in 0ms
+51 timing idealTree Completed in 15ms
+52 timing reify:loadTrees Completed in 15ms
+53 timing reify:diffTrees Completed in 1ms
+54 silly reify moves {}
+55 timing reify:retireShallow Completed in 1ms
+56 timing reify:createSparse Completed in 1ms
+57 timing reify:loadBundles Completed in 0ms
+58 silly audit bulk request { tsc: [ '2.0.4' ] }
+59 silly tarball no local data for tsc@https://registry.npmjs.org/tsc/-/tsc-2.0.4.tgz. Extracting by manifest.
+60 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 343ms
+61 timing auditReport:getReport Completed in 344ms
+62 silly audit report {}
+63 timing auditReport:init Completed in 0ms
+64 timing reify:audit Completed in 345ms
+65 http fetch GET 200 https://registry.npmjs.org/tsc/-/tsc-2.0.4.tgz 1437ms (cache miss)
+66 timing reifyNode:node_modules/tsc Completed in 1442ms
+67 timing reify:unpack Completed in 1442ms
+68 timing reify:unretire Completed in 0ms
+69 timing build:queue Completed in 1ms
+70 timing build:link:node_modules/tsc Completed in 2ms
+71 timing build:link Completed in 2ms
+72 timing build:deps Completed in 3ms
+73 timing build Completed in 4ms
+74 timing reify:build Completed in 4ms
+75 timing reify:trash Completed in 0ms
+76 timing reify:save Completed in 3ms
+77 timing reify Completed in 1472ms
+78 timing command:exec Completed in 2749ms
+79 verbose exit 1
+80 timing npm Completed in 2854ms
+81 verbose code 1
